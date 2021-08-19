@@ -1,0 +1,82 @@
+.icon-para{	
+	background:url('../assets/images/background.jpg') no-repeat center/cover;
+    height: 625px;
+}
+.hole{
+	background-color:white;
+	display:flex;
+	width:500px;
+	height:35px;
+	margin-left:430px;
+	border-radius:30px;
+	box-shadow:0px 2px 4px 0px;
+	margin-top:50px;
+}
+.search input{
+	padding:5px;
+	border:0;
+	margin-left: 20px;
+	padding-right:200px;
+}
+.but{
+	position: relative;
+	background-color:#8acff6;
+	color: white;
+	border:0;
+	cursor:pointer;
+	width: 21%;
+	border-bottom-right-radius: 15px;
+	border-top-right-radius: 15px;
+}
+.searchicon {
+	position: absolute;
+	right: 6px;
+	top: 10px;
+}
+.tabular{
+	margin-top: 35px;
+    margin-left: 339px;
+    width: 50%;
+}
+.icon-para h2{
+	text-align: center;
+	padding-top: 80px;
+}
+.icon-para h6{
+	text-align: center;
+	padding-top: 45px;
+}
+// @media (min-width:360px) {
+// 	.hole{
+// 		margin: auto;
+// 		width: 300px;
+// 		height: 40px;
+// 	}
+// 	.search input{
+// 		padding: 50px;
+// 	}
+// 	.but{
+// 		padding: 2px;
+// 	}
+// 	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

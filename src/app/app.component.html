@@ -1,0 +1,32 @@
+<!--<router-outlet></router-outlet>-->
+<!--<img scr="./../" alt="">-->
+
+<div class="icon-para">
+	<nav class="navbar navbar-default">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"> Nationalize API</a>
+			</div>
+      </div>
+	</nav>
+	<h2>You can search Nationality based on name</h2>
+		<div class="hole">
+			<div class="search">
+				<input type="text" class="search-input" placeholder="search name" id="searchcountry">
+			</div>
+			<button type="submit" class="but" (click)="search()">Search<i class="fa fa-search searchicon"></i></button>
+		</div>
+		<h6>You can check the probability & country details in below table</h6>
+		<div class="tabular">
+		<table class="table table-bordered">
+			<tr>
+				<th>Country code</th>
+				<th>Probability</th>
+			</tr>
+			<tr *ngFor="let country of countrydetails">
+				<td>{{country.country_id}}</td>
+				<td>{{country.probability}}</td>
+			</tr>
+		</table>
+		</div>
+</div>
